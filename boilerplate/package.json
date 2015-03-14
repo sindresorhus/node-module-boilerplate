@@ -1,0 +1,28 @@
+{
+  "name": "<%= moduleName %>",
+  "version": "0.0.0",
+  "description": "",
+  "license": "MIT",
+  "repository": "<%= githubUsername %>/<%= moduleName %>",
+  "author": {
+    "name": "<%= name %>",
+    "email": "<%= email %>",
+    "url": "<%= website %>"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
