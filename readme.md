@@ -2,6 +2,8 @@
 
 > Boilerplate to kickstart creating a node module
 
+Optionally with a [CLI](http://en.wikipedia.org/wiki/Command-line_interface).
+
 This is what I use for [my own modules](https://www.npmjs.com/~sindresorhus).
 
 

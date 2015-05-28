@@ -1,0 +1,34 @@
+{
+  "name": "<%= moduleName %>",
+  "version": "0.0.0",
+  "description": "",
+  "license": "MIT",
+  "repository": "<%= githubUsername %>/<%= moduleName %>",
+  "author": {
+    "name": "<%= name %>",
+    "email": "<%= email %>",
+    "url": "<%= website %>"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli",
+    "cli-app",
+    ""
+  ],
+  "dependencies": {
+    "meow": "^3.0.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
