@@ -17,7 +17,7 @@ var cli = meow({
 		'',
 		'Options',
 		'  --foo  Lorem ipsum. Default: false'
-	].join('\n')
+	]
 });
 
 console.log(<%= camelModuleName %>(cli.input[0] || 'unicorns'));
