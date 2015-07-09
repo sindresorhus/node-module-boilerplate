@@ -1,7 +1,7 @@
 {
   "name": "<%= moduleName %>",
   "version": "0.0.0",
-  "description": "",
+  "description": "<%= moduleDescription %>",
   "license": "MIT",
   "repository": "<%= githubUsername %>/<%= moduleName %>",
   "author": {
