@@ -4,6 +4,7 @@
 	"bitwise": true,
 	"curly": true,
 	"immed": true,
+	"mocha": true,
 	"newcap": true,
 	"noarg": true,
 	"undef": true,
