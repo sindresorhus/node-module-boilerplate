@@ -29,6 +29,6 @@
     "meow": "^3.3.0"
   },
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "^2.2.5"
   }
 }
