@@ -16,30 +16,7 @@ $ npm install --save <%= moduleName %>
 var <%= camelModuleName %> = require('<%= moduleName %>');
 
 <%= camelModuleName %>('unicorns');
-//=> unicorns & rainbows
-```
-
-
-## CLI
-
-```
-$ npm install --global <%= moduleName %>
-```
-```
-$ <%= moduleName %> --help
-
-Usage
-<%= moduleName %> [input]
-
-Example
-<%= moduleName %>
-unicorns & rainbows
-
-<%= moduleName %> ponies
-ponies & rainbows
-
-Options
---foo  Lorem ipsum. Default: false
+//=> 'unicorns & rainbows'
 ```
 
 
@@ -49,7 +26,6 @@ Options
 
 #### input
 
-*Required*  
 Type: `string`
 
 Lorem ipsum.
@@ -62,6 +38,29 @@ Type: `boolean`
 Default: `false`
 
 Lorem ipsum.
+
+
+## CLI
+
+```
+$ npm install --global <%= moduleName %>
+```
+
+```
+$ <%= moduleName %> --help
+
+  Usage
+    <%= moduleName %> [input]
+
+  Options
+    --foo  Lorem ipsum. [Default: false]
+
+  Examples
+    $ <%= moduleName %>
+    unicorns & rainbows
+    $ <%= moduleName %> ponies
+    ponies & rainbows
+```
 
 
 ## License

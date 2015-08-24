@@ -16,7 +16,7 @@ $ npm install --save <%= moduleName %>
 var <%= camelModuleName %> = require('<%= moduleName %>');
 
 <%= camelModuleName %>('unicorns');
-//=> unicorns & rainbows
+//=> 'unicorns & rainbows'
 ```
 
 
@@ -26,7 +26,6 @@ var <%= camelModuleName %> = require('<%= moduleName %>');
 
 #### input
 
-*Required*  
 Type: `string`
 
 Lorem ipsum.
