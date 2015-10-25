@@ -14,7 +14,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "xo && mocha"
+    "test": "xo && ava"
   },
   "files": [
     "index.js",
@@ -29,13 +29,12 @@
     "meow": "^3.4.2"
   },
   "devDependencies": {
-    "mocha": "^2.2.5",
+    "ava": "^0.3.0",
     "xo": "^0.10.0"
   },
   "xo": {
-    "envs": [
-      "node",
-      "mocha"
+    "ignores": [
+      "test.js"
     ]
   }
 }

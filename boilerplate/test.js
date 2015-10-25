@@ -1,7 +1,7 @@
-'use strict';
-var assert = require('assert');
-var <%= camelModuleName %> = require('./');
+import test from 'ava';
+import fn from './';
 
-it('should ', function () {
-	assert.strictEqual(<%= camelModuleName %>('unicorns'), 'unicorns & rainbows');
+test('title', t => {
+	t.is(fn('unicorns'), 'unicorns & rainbows');
+	t.end();
 });
