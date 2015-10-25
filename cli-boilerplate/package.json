@@ -26,11 +26,11 @@
     ""
   ],
   "dependencies": {
-    "meow": "^3.3.0"
+    "meow": "^3.4.2"
   },
   "devDependencies": {
     "mocha": "^2.2.5",
-    "xo": "^0.7.1"
+    "xo": "^0.10.0"
   },
   "xo": {
     "envs": [
