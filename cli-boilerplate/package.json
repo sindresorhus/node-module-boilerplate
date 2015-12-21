@@ -31,10 +31,5 @@
   "devDependencies": {
     "ava": "^0.8.0",
     "xo": "^0.12.1"
-  },
-  "xo": {
-    "ignores": [
-      "test.js"
-    ]
   }
 }
