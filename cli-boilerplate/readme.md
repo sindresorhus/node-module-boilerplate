@@ -53,7 +53,7 @@ $ <%= moduleName %> --help
     <%= moduleName %> [input]
 
   Options
-    --foo  Lorem ipsum. [Default: false]
+    --foo  Lorem ipsum [Default: false]
 
   Examples
     $ <%= moduleName %>

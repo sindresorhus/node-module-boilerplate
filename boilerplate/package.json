@@ -10,7 +10,7 @@
     "url": "<%= website %>"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=4"
   },
   "scripts": {
     "test": "xo && ava"
@@ -23,7 +23,10 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "ava": "^0.12.0",
-    "xo": "^0.12.1"
+    "ava": "^0.15.0",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true
   }
 }

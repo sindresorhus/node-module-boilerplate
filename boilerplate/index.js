@@ -1,10 +1,10 @@
 'use strict';
-module.exports = function (str, opts) {
-	if (typeof str !== 'string') {
-		throw new TypeError('Expected a string');
+module.exports = (input, opts) => {
+	if (typeof input !== 'string') {
+		throw new TypeError(`Expected a string, got ${typeof input}`);
 	}
 
 	opts = opts || {};
 
-	return str + ' & ' + (opts.postfix || 'rainbows');
+	return input + ' & ' + (opts.postfix || 'rainbows');
 };
