@@ -29,8 +29,8 @@
     "meow": "^3.7.0"
   },
   "devDependencies": {
-    "ava": "^0.15.0",
-    "xo": "^0.16.0"
+    "ava": "^0.17.0",
+    "xo": "^0.17.0"
   },
   "xo": {
     "esnext": true

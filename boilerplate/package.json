@@ -23,10 +23,7 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "ava": "^0.15.0",
-    "xo": "^0.16.0"
-  },
-  "xo": {
-    "esnext": true
+    "ava": "^0.17.0",
+    "xo": "^0.17.0"
   }
 }

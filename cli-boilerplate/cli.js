@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 'use strict';
 const meow = require('meow');
-const <%= camelModuleName %> = require('./');
+const <%= camelModuleName %> = require('.');
 
 const cli = meow(`
 	Usage
