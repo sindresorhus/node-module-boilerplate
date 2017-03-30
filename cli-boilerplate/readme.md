@@ -6,45 +6,11 @@
 ## Install
 
 ```
-$ npm install --save <%= moduleName %>
+$ npm install --global <%= moduleName %>
 ```
 
 
 ## Usage
-
-```js
-const <%= camelModuleName %> = require('<%= moduleName %>');
-
-<%= camelModuleName %>('unicorns');
-//=> 'unicorns & rainbows'
-```
-
-
-## API
-
-### <%= camelModuleName %>(input, [options])
-
-#### input
-
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`<br>
-Default: `false`
-
-Lorem ipsum.
-
-
-## CLI
-
-```
-$ npm install --global <%= moduleName %>
-```
 
 ```
 $ <%= moduleName %> --help
@@ -61,6 +27,11 @@ $ <%= moduleName %> --help
     $ <%= moduleName %> ponies
     ponies & rainbows
 ```
+
+
+## Related
+
+- [<%= moduleName %>](https://github.com/<%= githubUsername %>/<%= moduleName %>) - API for this module
 
 
 ## License
