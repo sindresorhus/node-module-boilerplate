@@ -1,9 +1,9 @@
 import test from 'ava';
-import fn from '.';
+import m from '.';
 
 test('title', t => {
-	const err = t.throws(() => fn(123), TypeError);
+	const err = t.throws(() => m(123), TypeError);
 	t.is(err.message, 'Expected a string, got number');
 
-	t.is(fn('unicorns'), 'unicorns & rainbows');
+	t.is(m('unicorns'), 'unicorns & rainbows');
 });

@@ -23,7 +23,7 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "ava": "^0.17.0",
-    "xo": "^0.17.0"
+    "ava": "^0.19.1",
+    "xo": "^0.18.2"
   }
 }

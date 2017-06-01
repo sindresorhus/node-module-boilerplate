@@ -28,4 +28,4 @@ There's also a [Yeoman generator](https://github.com/sindresorhus/generator-nm).
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)
