@@ -1,29 +1,29 @@
 {
-  "name": "<%= moduleName %>",
-  "version": "0.0.0",
-  "description": "",
-  "license": "MIT",
-  "repository": "<%= githubUsername %>/<%= moduleName %>",
-  "author": {
-    "name": "<%= name %>",
-    "email": "<%= email %>",
-    "url": "<%= website %>"
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    ""
-  ],
-  "dependencies": {},
-  "devDependencies": {
-    "ava": "^0.19.1",
-    "xo": "^0.18.2"
-  }
+	"name": "<%= moduleName %>",
+	"version": "0.0.0",
+	"description": "",
+	"license": "MIT",
+	"repository": "<%= githubUsername %>/<%= moduleName %>",
+	"author": {
+		"name": "<%= name %>",
+		"email": "<%= email %>",
+		"url": "<%= website %>"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		""
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"ava": "^0.20.0",
+		"xo": "^0.18.2"
+	}
 }

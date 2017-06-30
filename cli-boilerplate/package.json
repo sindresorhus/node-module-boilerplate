@@ -1,35 +1,35 @@
 {
-  "name": "<%= moduleName %>",
-  "version": "0.0.0",
-  "description": "",
-  "license": "MIT",
-  "repository": "<%= githubUsername %>/<%= moduleName %>",
-  "author": {
-    "name": "<%= name %>",
-    "email": "<%= email %>",
-    "url": "<%= website %>"
-  },
-  "bin": "cli.js",
-  "engines": {
-    "node": ">=4"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "files": [
-    "index.js",
-    "cli.js"
-  ],
-  "keywords": [
-    "cli",
-    "cli-app",
-    ""
-  ],
-  "dependencies": {
-    "meow": "^3.7.0"
-  },
-  "devDependencies": {
-    "ava": "^0.19.1",
-    "xo": "^0.18.2"
-  }
+	"name": "<%= moduleName %>",
+	"version": "0.0.0",
+	"description": "",
+	"license": "MIT",
+	"repository": "<%= githubUsername %>/<%= moduleName %>",
+	"author": {
+		"name": "<%= name %>",
+		"email": "<%= email %>",
+		"url": "<%= website %>"
+	},
+	"bin": "cli.js",
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js",
+		"cli.js"
+	],
+	"keywords": [
+		"cli",
+		"cli-app",
+		""
+	],
+	"dependencies": {
+		"meow": "^3.7.0"
+	},
+	"devDependencies": {
+		"ava": "^0.20.0",
+		"xo": "^0.18.2"
+	}
 }
