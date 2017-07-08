@@ -1,11 +1,6 @@
 import test from 'ava';
-import m from '.';
+import execa from 'execa';
 
-test('title', t => {
-	const err = t.throws(() => {
-		m(123);
-	}, TypeError);
-	t.is(err.message, 'Expected a string, got number');
-
-	t.is(m('unicorns'), 'unicorns & rainbows');
+test('title', async t => {
+	t.is(await execa.stdout('./cli.js', ['ponies']), 'ponies & rainbows');
 });

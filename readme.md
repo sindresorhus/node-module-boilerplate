@@ -2,7 +2,7 @@
 
 > Boilerplate to kickstart creating a node module
 
-Optionally with a [CLI](http://en.wikipedia.org/wiki/Command-line_interface).
+Also with a boilerplate for creating a [CLI](http://en.wikipedia.org/wiki/Command-line_interface).
 
 This is what I use for [my own modules](https://www.npmjs.com/~sindresorhus).
 
@@ -15,7 +15,7 @@ In your directory, run:
 $ curl -fsSL https://github.com/sindresorhus/node-module-boilerplate/archive/master.tar.gz | tar -xz --strip-components=2 node-module-boilerplate-master/boilerplate
 ```
 
-Or if you also want a CLI:
+Or if you want to create a CLI:
 
 ```
 $ curl -fsSL https://github.com/sindresorhus/node-module-boilerplate/archive/master.tar.gz | tar -xz --strip-components=2 node-module-boilerplate-master/cli-boilerplate
