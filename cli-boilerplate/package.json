@@ -1,15 +1,17 @@
 {
-	"name": "<%= moduleName %>",
+	"name": "<%= moduleName %>-cli",
 	"version": "0.0.0",
 	"description": "",
 	"license": "MIT",
-	"repository": "<%= githubUsername %>/<%= moduleName %>",
+	"repository": "<%= githubUsername %>/<%= moduleName %>-cli",
 	"author": {
 		"name": "<%= name %>",
 		"email": "<%= email %>",
 		"url": "<%= website %>"
 	},
-	"bin": "cli.js",
+	"bin": {
+		"<%= moduleName %>": "cli.js"
+	},
 	"engines": {
 		"node": ">=4"
 	},
@@ -17,7 +19,6 @@
 		"test": "xo && ava"
 	},
 	"files": [
-		"index.js",
 		"cli.js"
 	],
 	"keywords": [
@@ -26,10 +27,12 @@
 		""
 	],
 	"dependencies": {
-		"meow": "^3.7.0"
+		"meow": "^3.7.0",
+		"<%= moduleName %>": "^0.0.0"
 	},
 	"devDependencies": {
 		"ava": "^0.20.0",
+		"execa": "^0.7.0",
 		"xo": "^0.18.2"
 	}
 }

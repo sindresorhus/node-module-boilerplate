@@ -1,4 +1,4 @@
-# <%= moduleName %> [![Build Status](https://travis-ci.org/<%= githubUsername %>/<%= moduleName %>.svg?branch=master)](https://travis-ci.org/<%= githubUsername %>/<%= moduleName %>)
+# <%= moduleName %>-cli [![Build Status](https://travis-ci.org/<%= githubUsername %>/<%= moduleName %>-cli.svg?branch=master)](https://travis-ci.org/<%= githubUsername %>/<%= moduleName %>-cli)
 
 >
 
@@ -6,45 +6,11 @@
 ## Install
 
 ```
-$ npm install <%= moduleName %>
+$ npm install --global <%= moduleName %>-cli
 ```
 
 
 ## Usage
-
-```js
-const <%= camelModuleName %> = require('<%= moduleName %>');
-
-<%= camelModuleName %>('unicorns');
-//=> 'unicorns & rainbows'
-```
-
-
-## API
-
-### <%= camelModuleName %>(input, [options])
-
-#### input
-
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`<br>
-Default: `false`
-
-Lorem ipsum.
-
-
-## CLI
-
-```
-$ npm install --global <%= moduleName %>
-```
 
 ```
 $ <%= moduleName %> --help
