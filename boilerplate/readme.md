@@ -32,6 +32,8 @@ Lorem ipsum.
 
 #### options
 
+Type: `Object`
+
 ##### foo
 
 Type: `boolean`<br>

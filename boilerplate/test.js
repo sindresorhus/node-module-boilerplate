@@ -1,11 +1,11 @@
 import test from 'ava';
-import m from '.';
+import moduleName from '.';
 
 test('title', t => {
 	const err = t.throws(() => {
-		m(123);
+		moduleName(123);
 	}, TypeError);
 	t.is(err.message, 'Expected a string, got number');
 
-	t.is(m('unicorns'), 'unicorns & rainbows');
+	t.is(moduleName('unicorns'), 'unicorns & rainbows');
 });
