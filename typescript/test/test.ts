@@ -1,5 +1,5 @@
 import test from 'ava';
-import moduleName from '.';
+import moduleName from '../source';
 
 test('title', t => {
 	const err = t.throws(() => {
