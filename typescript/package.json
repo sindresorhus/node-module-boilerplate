@@ -15,7 +15,6 @@
 	"scripts": {
 		"build": "del dist && tsc",
 		"prepack": "npm run build",
-		"pretest": "npm run build",
 		"test": "xo && ava"
 	},
 	"main": "dist",
