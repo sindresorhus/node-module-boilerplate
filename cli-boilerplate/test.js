@@ -2,5 +2,6 @@ import test from 'ava';
 import execa from 'execa';
 
 test('title', async t => {
-	t.is(await execa.stdout('./cli.js', ['ponies']), 'ponies & rainbows');
+	const {stdout} = await execa('./cli.js', ['ponies']);
+	t.is(stdout, 'ponies & rainbows');
 });

@@ -13,7 +13,7 @@
 		"<%= moduleName %>": "cli.js"
 	},
 	"engines": {
-		"node": ">=6"
+		"node": ">=8"
 	},
 	"scripts": {
 		"test": "xo && ava"
@@ -31,8 +31,8 @@
 		"<%= moduleName %>": "^0.0.0"
 	},
 	"devDependencies": {
-		"ava": "^0.25.0",
-		"execa": "^0.10.0",
-		"xo": "^0.21.0"
+		"ava": "^1.4.1",
+		"execa": "^1.0.0",
+		"xo": "^0.24.0"
 	}
 }

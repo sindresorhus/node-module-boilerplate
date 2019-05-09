@@ -1,4 +1,4 @@
-# <%= moduleName %> [![Build Status](https://travis-ci.org/<%= githubUsername %>/<%= moduleName %>.svg?branch=master)](https://travis-ci.org/<%= githubUsername %>/<%= moduleName %>)
+# <%= moduleName %> [![Build Status](https://travis-ci.com/<%= githubUsername %>/<%= moduleName %>.svg?branch=master)](https://travis-ci.com/<%= githubUsername %>/<%= moduleName %>)
 
 >
 
@@ -32,7 +32,7 @@ Lorem ipsum.
 
 #### options
 
-Type: `Object`
+Type: `object`
 
 ##### foo
 
