@@ -54,7 +54,6 @@
 			"ts"
 		],
 		"rules": {
-			"@typescript-eslint/promise-function-async": "off",
 			"ava/no-ignored-test-files": "off"
 		}
 	}
