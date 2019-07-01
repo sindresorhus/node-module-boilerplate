@@ -24,8 +24,3 @@ $ curl -fsSL https://github.com/sindresorhus/node-module-boilerplate/archive/mas
 Alternatively you can `git clone` or [download](https://github.com/sindresorhus/node-module-boilerplate/archive/master.zip) this repo and get contents of the `boilerplate` or `cli-boilerplate` folder.
 
 There's also a [Yeoman generator](https://github.com/sindresorhus/generator-nm).
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)

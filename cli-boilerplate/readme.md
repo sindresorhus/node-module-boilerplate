@@ -27,8 +27,3 @@ $ <%= moduleName %> --help
     $ <%= moduleName %> ponies
     ponies & rainbows
 ```
-
-
-## License
-
-MIT © [<%= name %>](https://github.com/<%= githubUsername %>)

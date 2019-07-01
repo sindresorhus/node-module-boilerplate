@@ -22,7 +22,7 @@ const <%= camelModuleName %> = require('<%= moduleName %>');
 
 ## API
 
-### <%= camelModuleName %>(input, [options])
+### <%= camelModuleName %>(input, options?)
 
 #### input
 
@@ -40,8 +40,3 @@ Type: `boolean`<br>
 Default: `false`
 
 Lorem ipsum.
-
-
-## License
-
-MIT © [<%= name %>](https://github.com/<%= githubUsername %>)
