@@ -1,4 +1,4 @@
-# node-module-boilerplate
+# node-module-boilerplate [![Build Status](https://travis-ci.com/sindresorhus/node-cli-boilerplate.svg?branch=master)](https://travis-ci.com/sindresorhus/node-cli-boilerplate)
 
 > Boilerplate to kickstart creating a Node.js module
 
