@@ -1,13 +1,13 @@
 {
-	"name": "<%= moduleName %>",
+	"name": "unicorn-fun",
 	"version": "0.0.0",
-	"description": "",
+	"description": "My awesome module",
 	"license": "MIT",
-	"repository": "<%= githubUsername %>/<%= moduleName %>",
+	"repository": "YOUR-GITHUB-USERNAME/unicorn-fun",
 	"author": {
-		"name": "<%= name %>",
-		"email": "<%= email %>",
-		"url": "<%= website %>"
+		"name": "YOUR NAME",
+		"email": "YOUR EMAIL",
+		"url": "YOUR WEBSITE"
 	},
 	"engines": {
 		"node": ">=8"
@@ -19,7 +19,8 @@
 		"index.js"
 	],
 	"keywords": [
-		""
+		"unicorn",
+		"fun"
 	],
 	"dependencies": {},
 	"devDependencies": {

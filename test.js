@@ -1,13 +1,13 @@
 import test from 'ava';
-import moduleName from '.';
+import unicornFun from '.';
 
-test('title', t => {
+test('main', t => {
 	t.throws(() => {
-		moduleName(123);
+		unicornFun(123);
 	}, {
 		instanceOf: TypeError,
 		message: 'Expected a string, got number'
 	});
 
-	t.is(moduleName('unicorns'), 'unicorns & rainbows');
+	t.is(unicornFun('unicorns'), 'unicorns & rainbows');
 });
