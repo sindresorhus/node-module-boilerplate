@@ -65,7 +65,7 @@ Type: `object`
 
 ##### postfix
 
-Type: `string`<br>
+Type: `string`\
 Default: `rainbows`
 
 Lorem ipsum.
