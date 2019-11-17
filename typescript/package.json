@@ -17,10 +17,10 @@
 		"prepack": "npm run build",
 		"test": "tsc && xo && ava"
 	},
-	"main": "dist",
-	"types": "dist",
+	"main": "dist/source",
+	"types": "dist/source",
 	"files": [
-		"dist",
+		"dist/source",
 		"!*.test.*"
 	],
 	"keywords": [
