@@ -15,7 +15,7 @@
 	"scripts": {
 		"build": "del dist && tsc",
 		"prepack": "npm run build",
-		"test": "tsc && xo && ava"
+		"test": "tsc && xo && nyc ava"
 	},
 	"main": "dist/source",
 	"types": "dist/source",
@@ -28,19 +28,32 @@
 	],
 	"dependencies": {},
 	"devDependencies": {
-		"@sindresorhus/tsconfig": "^0.6.0",
-		"@types/node": "^12.0.2",
-		"@typescript-eslint/eslint-plugin": "^2.7.0",
-		"@typescript-eslint/parser": "^2.7.0",
-		"ava": "^2.1.0",
+		"@sindresorhus/tsconfig": "^0.7.0",
+		"@types/node": "^13.1.4",
+		"@typescript-eslint/eslint-plugin": "^2.15.0",
+		"@typescript-eslint/parser": "^2.15.0",
+		"ava": "^3.0.0",
 		"del-cli": "^3.0.0",
-		"eslint-config-xo-typescript": "^0.21.0",
-		"typescript": "^3.3.3",
+		"eslint-config-xo-typescript": "^0.24.1",
+		"nyc": "^15.0.0",
+		"typescript": "^3.7.4",
 		"xo": "^0.25.3"
 	},
-	"ava": {
-		"babel": false,
-		"compileEnhancements": false
+	"nyc": {
+		"extension": [
+			".ts"
+		],
+		"include": [
+			"dist/source",
+			"source"
+		],
+		"exclude": [
+			"**/*.test.ts"
+		],
+		"reporter": [
+			"lcov",
+			"text"
+		]
 	},
 	"xo": {
 		"extends": "xo-typescript",
