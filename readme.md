@@ -1,31 +1,48 @@
-# node-module-boilerplate
+# <%= moduleName %>
 
-> Boilerplate to kickstart creating a node module
+[![NPM Version](https://img.shields.io/npm/v/<%= moduleName %>.svg)](https://www.npmjs.com/package/<%= moduleName %>)
+[![node](https://img.shields.io/node/v/<%= moduleName %>.svg)](https://www.npmjs.com/package/<%= moduleName %>)
+[![Build Status](https://travis-ci.com/<%= githubUsername %>/<%= moduleName %>.svg?branch=master)](https://travis-ci.com/<%= githubUsername %>/<%= moduleName %>)
+[![Dependency Status](https://david-dm.org/<%= githubUsername %>/<%= moduleName %>/status.svg)](https://david-dm.org/<%= githubUsername %>/<%= moduleName %>)
+[![Dev Dependency Status](https://david-dm.org/<%= githubUsername %>/<%= moduleName %>/dev-status.svg)](https://david-dm.org/<%= githubUsername %>/<%= moduleName %>?type=dev)
 
-Also with a boilerplate for creating a [CLI](http://en.wikipedia.org/wiki/Command-line_interface).
-
-This is what I use for [my own modules](https://www.npmjs.com/~sindresorhus).
+>
 
 
-## Getting started
-
-In your directory, run:
-
-```
-$ curl -fsSL https://github.com/sindresorhus/node-module-boilerplate/archive/master.tar.gz | tar -xz --strip-components=2 node-module-boilerplate-master/boilerplate
-```
-
-Or if you want to create a CLI:
+## Install
 
 ```
-$ curl -fsSL https://github.com/sindresorhus/node-module-boilerplate/archive/master.tar.gz | tar -xz --strip-components=2 node-module-boilerplate-master/cli-boilerplate
+$ npm install <%= moduleName %>
 ```
 
-Alternatively you can `git clone` or [download](https://github.com/sindresorhus/node-module-boilerplate/archive/master.zip) this repo and get contents of the `boilerplate` or `cli-boilerplate` folder.
 
-There's also a [Yeoman generator](https://github.com/sindresorhus/generator-nm).
+## Usage
+
+```js
+const <%= camelModuleName %> = require('<%= moduleName %>');
+
+<%= camelModuleName %>('unicorns');
+//=> 'unicorns & rainbows'
+```
 
 
-## License
+## API
 
-MIT © [Sindre Sorhus](https://sindresorhus.com)
+### <%= camelModuleName %>(input, [options])
+
+#### input
+
+Type: `string`
+
+Lorem ipsum.
+
+#### options
+
+Type: `Object`
+
+##### foo
+
+Type: `boolean`\
+Default: `false`
+
+Lorem ipsum.
