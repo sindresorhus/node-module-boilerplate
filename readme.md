@@ -27,7 +27,7 @@ There's also a [Yeoman generator](https://github.com/sindresorhus/generator-nm).
 ---
 
 
-# unicorn-fun [![Build Status](https://travis-ci.com/YOUR-GITHUB-USERNAME/unicorn-fun.svg?branch=master)](https://travis-ci.com/YOUR-GITHUB-USERNAME/unicorn-fun)
+# unicorn-fun ![Build Status](https://github.com/YOUR-GITHUB-USERNAME/unicorn-fun/workflows/main/badge.svg?branch=master)
 
 > My awesome module
 
