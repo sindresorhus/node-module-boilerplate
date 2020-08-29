@@ -10,7 +10,7 @@
 		"url": "YOUR WEBSITE"
 	},
 	"engines": {
-		"node": ">=8"
+		"node": ">=10"
 	},
 	"scripts": {
 		"test": "xo && ava"
@@ -24,7 +24,7 @@
 	],
 	"dependencies": {},
 	"devDependencies": {
-		"ava": "^2.1.0",
-		"xo": "^0.24.0"
+		"ava": "^2.4.0",
+		"xo": "^0.33.0"
 	}
 }

@@ -6,7 +6,6 @@ This is what I use for [my own modules](https://www.npmjs.com/~sindresorhus).
 
 Also check out [`node-cli-boilerplate`](https://github.com/sindresorhus/node-cli-boilerplate).
 
-
 ## Getting started
 
 **Click the "Use this template" button.**
@@ -19,25 +18,21 @@ $ curl -fsSL https://github.com/sindresorhus/node-module-boilerplate/archive/mas
 
 There's also a [Yeoman generator](https://github.com/sindresorhus/generator-nm).
 
-
 ---
 
 **Remove everything from here and above**
 
 ---
 
-
-# unicorn-fun [![Build Status](https://travis-ci.com/YOUR-GITHUB-USERNAME/unicorn-fun.svg?branch=master)](https://travis-ci.com/YOUR-GITHUB-USERNAME/unicorn-fun)
+# unicorn-fun [![Build Status](https://travis-ci.com/YOUR-GITHUB-USERNAME/unicorn-fun.svg?branch=master)](https://travis-ci.com/github/YOUR-GITHUB-USERNAME/unicorn-fun)
 
 > My awesome module
-
 
 ## Install
 
 ```
 $ npm install unicorn-fun
 ```
-
 
 ## Usage
 
@@ -47,7 +42,6 @@ const unicornFun = require('unicorn-fun');
 unicornFun('unicorns');
 //=> 'unicorns & rainbows'
 ```
-
 
 ## API
 
