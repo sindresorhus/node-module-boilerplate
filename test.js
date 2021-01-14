@@ -1,5 +1,5 @@
 import test from 'ava';
-import unicornFun from '.';
+import unicornFun from './index.js';
 
 test('main', t => {
 	t.throws(() => {
