@@ -13,7 +13,7 @@ Also check out [`node-cli-boilerplate`](https://github.com/sindresorhus/node-cli
 Alternatively, create a new directory and then run:
 
 ```
-$ curl -fsSL https://github.com/sindresorhus/node-module-boilerplate/archive/master.tar.gz | tar -xz --strip-components=1
+$ curl -fsSL https://github.com/sindresorhus/node-module-boilerplate/archive/main.tar.gz | tar -xz --strip-components=1
 ```
 
 There's also a [Yeoman generator](https://github.com/sindresorhus/generator-nm).
