@@ -6,7 +6,7 @@ test('main', t => {
 		unicornFun(123);
 	}, {
 		instanceOf: TypeError,
-		message: 'Expected a string, got number'
+		message: 'Expected a string, got number',
 	});
 
 	t.is(unicornFun('unicorns'), 'unicorns & rainbows');

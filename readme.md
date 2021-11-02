@@ -30,8 +30,8 @@ There's also a [Yeoman generator](https://github.com/sindresorhus/generator-nm).
 
 ## Install
 
-```
-$ npm install unicorn-fun
+```sh
+npm install unicorn-fun
 ```
 
 ## Usage
