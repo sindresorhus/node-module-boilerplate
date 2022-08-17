@@ -12,7 +12,7 @@
 	"type": "module",
 	"exports": "./index.js",
 	"engines": {
-		"node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+		"node": ">=14.16"
 	},
 	"scripts": {
 		"test": "xo && ava"
@@ -26,7 +26,7 @@
 	],
 	"dependencies": {},
 	"devDependencies": {
-		"ava": "^3.15.0",
-		"xo": "^0.46.3"
+		"ava": "^4.3.1",
+		"xo": "^0.51.0"
 	}
 }
