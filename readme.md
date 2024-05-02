@@ -16,8 +16,6 @@ Alternatively, create a new directory and then run:
 curl -fsSL https://github.com/sindresorhus/node-module-boilerplate/archive/main.tar.gz | tar -xz --strip-components=1
 ```
 
-There's also a [Yeoman generator](https://github.com/sindresorhus/generator-nm).
-
 ---
 
 **Remove everything from here and above**

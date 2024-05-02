@@ -4,6 +4,7 @@
 	"description": "My awesome module",
 	"license": "MIT",
 	"repository": "YOUR-GITHUB-USERNAME/unicorn-fun",
+	"funding": "https://github.com/sponsors/YOUR-GITHUB-USERNAME",
 	"author": {
 		"name": "YOUR NAME",
 		"email": "YOUR EMAIL",
@@ -11,8 +12,9 @@
 	},
 	"type": "module",
 	"exports": "./index.js",
+	"sideEffects": false,
 	"engines": {
-		"node": ">=16"
+		"node": ">=18"
 	},
 	"scripts": {
 		"test": "xo && ava"
@@ -26,7 +28,7 @@
 	],
 	"dependencies": {},
 	"devDependencies": {
-		"ava": "^5.3.0",
-		"xo": "^0.54.2"
+		"ava": "^6.1.2",
+		"xo": "^0.58.0"
 	}
 }
