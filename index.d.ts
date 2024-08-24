@@ -1,6 +1,6 @@
 export type Options = {
 	/**
-	The unicorn-ifying string.
+	Lorem ipsum.
 
 	@default rainbows
 	*/
@@ -8,10 +8,10 @@ export type Options = {
 };
 
 /**
-Unicorn-ifies a string.
+My awesome module
 
-@param input - A string that needs to be unicorn-ified.
-@returns A unicorn-ified string.
+@param input - Lorem ipsum.
+@returns Lorem ipsum.
 
 @example
 ```
